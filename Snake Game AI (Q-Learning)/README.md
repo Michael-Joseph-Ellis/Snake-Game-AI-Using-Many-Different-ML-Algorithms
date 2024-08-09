@@ -25,6 +25,7 @@ where:
 - `a` is the action taken,
 - `r` is the reward received,
 - `s'` is the subsequent state,
+- `α'` represents all possible next actions from state `s'`,
 - `α` is the learning rate,
 - `γ` is the discount factor.
 
