@@ -21,28 +21,28 @@ This repository contains the code for a Snake game AI where the snake learns to 
 
 ## Algorithms Implemented
 
-1. **Greedy Algorithm**
+1. **Greedy Algorithm** (WIP)
    - The snake always moves towards the food using the shortest possible path. This can be done using basic pathfinding techniques like Breadth-First Search (BFS) or Depth-First Search (DFS).
 
-2. **A* Pathfinding**
+2. **A* Pathfinding** (Future Project)
    - A more sophisticated pathfinding algorithm that considers both the cost to reach the food and an estimated cost from the current position to the food, leading to more efficient routes.
 
-3. **Hamiltonian Path**
+3. **Hamiltonian Path** (Future Project)
    - Involves creating a path that visits every square on the grid exactly once, ensuring that the snake eventually reaches the food as it traverses the grid.
 
-4. **Reinforcement Learning (e.g., Q-Learning, Deep Q-Networks)**
+4. **Reinforcement Learning (e.g., Q-Learning, Deep Q-Networks)** (DONE)
    - The AI learns to play the game by being rewarded for reaching the food and penalized for collisions or dying, gradually improving its strategy.
 
-5. **Genetic Algorithms**
+5. **Genetic Algorithms** (Future Project)
    - Evolve a population of snakes over several generations, selecting for those that perform well, and improving performance through crossover and mutation.
 
-6. **Minimax Algorithm with Alpha-Beta Pruning**
+6. **Minimax Algorithm with Alpha-Beta Pruning** (WIP)
    - The snake simulates all possible moves and chooses the one that minimizes the worst-case scenario, ensuring optimal decision-making.
 
-7. **Depth-First Search with Backtracking**
+7. **Depth-First Search with Backtracking** (Future Project)
    - The snake explores all possible paths to the food and backtracks when it hits a dead-end, ensuring that it can reach the food without getting trapped.
 
-8. **Flood Fill Algorithm**
+8. **Flood Fill Algorithm** (WIP)
    - The snake fills the grid from its position to the food and measures the area it can safely move to, helping it decide whether to move directly towards the food or take a detour.
 
 
