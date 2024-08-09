@@ -39,4 +39,4 @@ The performance of the AI agent after training is mediocre. The algorithm perfor
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
