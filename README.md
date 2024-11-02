@@ -4,10 +4,12 @@ This project implements the classic Snake game, featuring AI agents trained with
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Algorithms Implemented](#algorithms-implemented)
-- [License](#license)
+- [Snake Game AI Using Many Different ML Algorithms](#snake-game-ai-using-many-different-ml-algorithms)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Algorithms Implemented](#algorithms-implemented)
+  - [License](#license)
 
 ## Introduction
 
@@ -21,10 +23,10 @@ This repository contains the code for a Snake game AI where the snake learns to 
 
 ## Algorithms Implemented
 
-1. **Greedy Algorithm** (WIP)
+1. **Greedy Algorithm** (Future Project)
    - The snake always moves towards the food using the shortest possible path. This can be done using basic pathfinding techniques like Breadth-First Search (BFS) or Depth-First Search (DFS).
 
-2. **A* Pathfinding** (Future Project)
+2. **A* Pathfinding** (WIP)
    - A more sophisticated pathfinding algorithm that considers both the cost to reach the food and an estimated cost from the current position to the food, leading to more efficient routes.
 
 3. **Hamiltonian Path** (Future Project)
@@ -36,13 +38,13 @@ This repository contains the code for a Snake game AI where the snake learns to 
 5. **Genetic Algorithms** (Future Project)
    - Evolve a population of snakes over several generations, selecting for those that perform well, and improving performance through crossover and mutation.
 
-6. **Minimax Algorithm with Alpha-Beta Pruning** (WIP)
+6. **Minimax Algorithm with Alpha-Beta Pruning** (Future Project)
    - The snake simulates all possible moves and chooses the one that minimizes the worst-case scenario, ensuring optimal decision-making.
 
 7. **Depth-First Search with Backtracking** (Future Project)
    - The snake explores all possible paths to the food and backtracks when it hits a dead-end, ensuring that it can reach the food without getting trapped.
 
-8. **Flood Fill Algorithm** (WIP)
+8. **Flood Fill Algorithm** (Future Project)
    - The snake fills the grid from its position to the food and measures the area it can safely move to, helping it decide whether to move directly towards the food or take a detour.
 
 

@@ -85,35 +85,32 @@ class SnakeGameAI:
             tuple: A tuple containing the reward, game over flag, and current score.
         """
         self.frame_iteration += 1
-        # 1. collect user input
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-        
-        # 2. move
-        self._move(action) # update the head
+
+        self._move(action)  # update the head
         self.snake.insert(0, self.head)
 
-        # 3. check if game over
         game_over = False
-        if self.is_collision() or self.frame_iteration > 100*len(self.snake):
+        reward = 0  # Initialize reward to a default value
+
+        if self.is_collision() or self.frame_iteration > 100 * len(self.snake):
             game_over = True
             reward = -1
             return reward, game_over, self.score
 
-        # 4. place new food or just move
         if self.head == self.food:
             self.score += 1
             reward = 2
             self._place_food()
         else:
             self.snake.pop()
-        
-        # 5. update ui and clock
+
         self._update_ui()
         self.clock.tick(SPEED)
-        # 6. return game over and score
+
         return reward, game_over, self.score
 
     def is_collision(self, pt=None):
