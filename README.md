@@ -26,7 +26,7 @@ This repository contains the code for a Snake game AI where the snake learns to 
 1. **Greedy Algorithm** (Future Project)
    - The snake always moves towards the food using the shortest possible path. This can be done using basic pathfinding techniques like Breadth-First Search (BFS) or Depth-First Search (DFS).
 
-2. **A* Pathfinding** (WIP)
+2. **A* Pathfinding** (DONE)
    - A more sophisticated pathfinding algorithm that considers both the cost to reach the food and an estimated cost from the current position to the food, leading to more efficient routes.
 
 3. **Hamiltonian Path** (Future Project)
